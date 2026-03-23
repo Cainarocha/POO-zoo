@@ -18,24 +18,28 @@ O objetivo é simular o funcionamento de um zoológico, permitindo a interação
 ---
 
 ## 🐒 Funcionalidades
-- Cadastro de animais
-- Listagem de animais
-- Alimentação dos animais
-- Emissão de sons dos animais
-- Gerenciamento de habitats
-- Interação com o usuário via terminal
+- Cadastro de animais  
+- Listagem de animais  
+- Alimentação dos animais  
+- Emissão de sons dos animais  
+- Gerenciamento de habitats  
+- Interação com o usuário via terminal  
 
 ---
 
 ## 🧬 Conceitos de POO Utilizados
-🔹 Encapsulamento
-- Os atributos dos objetos são protegidos e acessados por métodos getters e setters.
-🔹 Herança
-- A classe Animal é utilizada como base para outras classes:
-  - Leao
-  - Elefante
-  - Macaco
-🔹 Polimorfismo
-- Cada animal implementa seu próprio comportamento, como o método emitirSom().
-🔹 Abstração
-- A classe Animal pode ser abstrata, definindo métodos que devem ser implementados pelas subclasses.
+
+### 🔹 Encapsulamento
+- Os atributos dos objetos são protegidos e acessados por métodos *getters* e *setters*.
+
+### 🔹 Herança
+- A classe `Animal` é utilizada como base para outras classes:
+  - `Leao`
+  - `Elefante`
+  - `Macaco`
+
+### 🔹 Polimorfismo
+- Cada animal implementa seu próprio comportamento, como o método `emitirSom()`.
+
+### 🔹 Abstração
+- A classe `Animal` pode ser abstrata, definindo métodos que devem ser implementados pelas subclasses.
